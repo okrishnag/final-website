@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <style>
+    .button {
+      background-color: #4CAF50;
+      /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s;
+      /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 4px solid #4CAF50;
+    }
+
+    .button1:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .button2 {
+      background-color: white;
+      color: black;
+      border: 4px solid #008CBA;
+    }
+
+    .button2:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+
+    .button3 {
+      background-color: white;
+      color: black;
+      border: 4px solid #f44336;
+    }
+
+    .button3:hover {
+      background-color: #f44336;
+      color: white;
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <a href="index.html"><button class="button button1">Home</button></a>
+  <a href="portfolio.html"><button class="button button2">Portfolio</button></a>
+  <a href="About-me.html"><button class="button button3">About Me</button></a>
+
+
+
+
+
+
+</body>
+<style>
+  #green {
+    height: 300px;
+    width: 19%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin: 15px;
+    border: 5px solid black;
+  }
+
+  #red {
+    height: 300px;
+    width: 75%;
+    background-color: gold;
+    float: right;
+    margin: 15px;
+    border: 5px solid black;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px
+  }
+
+  #blue {
+    height: 101px;
+    width: 96%;
+    background-color: blue;
+    margin: 15px;
+    border: 5px solid black;
+    
+    </style>
+
+<body style="background-color:#FF4C4C;">
+
+  <meta charset="utf-8">
+  <title>About Me</title>
+  </head>
+
+  <body>
+
+    <div id=blue>
+      <h1>About me!</h1>
+    </div>
+
+
+
+
+    <div id="green">
+      <h1>Things I Like To Do</h1>
+      <p>
+        <ol>
+          <li>Sports - Tennis</li>
+          <li>Listen to Music</li>
+          <li>Drive</li>
+          <li>Technology</li>
+          <li>Biking</li>
+        </ol>
+      </p>
+    </div>
+    <div id="red">
+      <h1>About Me</h1>
+      <p> Sports- I have played tennis since I was 8 years old and still continue to play to this day. At Rancho Bernardo High School I play Varsity Tennis. In addition, I like to play tournaments and compete against others</p>
+      <p>Music - I like to listen to a wide variety of music from Indian music to rock. Some of my favorite bands are Fall out Boy, Twenty-One Piolts, and Imagine Dragons. In addition I like to listen to Bon Jovi and Michael Jackson. Furthermore I revist
+        my childhood bands like Black eyed peas. </p>
+      <p>Driving - I love to drive and I am pretty good at it. I currently have my permit and drive a lot.</p>
+      <p> Technology - I like to mess around with technology. I like to research about the new thing. I really like to know about the current trend. In additon I like to invest in music and sound systems</p>
+      <p>Biking - Biking is another one of my hobbies. It relieves a lot of stress and is one of the most relaxing activities for me.</p>
+    </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #ccc;
+      }
+
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+    </style>
+
+
+
+
+
+    </head>
+    <style>
+      h2 { text-align: center;}
+    </style>
+
+    <body>
+
+      <h2>More About Me</h2>
+
+      <button class="accordion">Favorite Food</button>
+      <div class="panel">
+        <p>I like all types of food. I like Thai food, Indian food, and Italian food.</p>
+        <img src="images/padthai.jpg"><img src="images/pasta.jpeg" height="350">
+      </div>
+
+      <button class="accordion">Me</button>
+      <div class="panel">
+        <p>I like to play tennis and it is fun. I also like to watch youtube and netflix and listen to music. </p>
+        <img src="images/music.png">
+      </div>
+      
+
+      <button class="accordion">Daily life</button>
+      <div class="panel">
+        <p>My daily life consists of going to school, then going home and playing tennis and then doing homework.         </p>
+        <img src="images/tennis.jpg">
+        
+
+      </div>
+
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            }
+            else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+      
+      
+
+    </body>
+
+    
+
+
+  </body>
+
+
+
+</html>
